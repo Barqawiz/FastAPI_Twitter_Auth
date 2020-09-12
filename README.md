@@ -4,7 +4,7 @@
 ## Introduction
 Fast API template for social login using twitter API. This API can be used as backend for mobile and website login using twitter.
 
-<img width="420px" src="resource/twitter_api.png" alt="[ Available Functions ]"/>
+<img width="480px" src="resource/twitter_api.png" alt="[ Available Functions ]"/>
 
 
 ## Requirements
@@ -20,7 +20,7 @@ cd social_api
 python main.py
 ```
 3. Create twitter application and fill the inforimation inside ```Config.py```
-<img width="340px" src="resource/config.png" alt="[ Available Functions ]"/>
+<img width="320px" src="resource/config.png" alt="[ Available Functions ]"/>
 
 
 License
