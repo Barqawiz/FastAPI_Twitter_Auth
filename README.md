@@ -2,7 +2,7 @@
  Create twitter login API using FastAPI.
 
 ## Introduction
-Fast API template for social login using twitter API. This API can be used as backend for mobile and website login using twitter.
+Fast API template for social login using twitter API. This API can be used as python backend for mobiles and websites authontication using twitter.
 
 <img width="480px" src="resource/twitter_api.png" alt="[ Available Functions ]"/>
 
