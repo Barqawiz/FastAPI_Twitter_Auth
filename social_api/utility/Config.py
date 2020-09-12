@@ -18,9 +18,9 @@ License
 
 class KEYS:
     # consumer_key
-    TW_API_KEY = "kfD74C5qmoiUKYKhEf3LqRK5B"
+    TW_API_KEY = ""
     # consumer_secret
-    TW_API_SEC = "xjv7SPD6gDC7gOP5asGlAB5SNmfcjxQC6POZFW4edzBs8mKBpf"
+    TW_API_SEC = ""
 
 
 class CONNECT:
