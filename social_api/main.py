@@ -12,8 +12,7 @@ License
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
 
-Created on Sep 12 2020
-@author: Ahmad Barqawi
+@author: Github.com/Barqawiz
 """
 import utility.Config as Config
 from utility.TwitterUtil import TwitterUtil
