@@ -8,19 +8,35 @@ Fast API template for social login using twitter API. This API can be used as py
 
 
 ## Requirements
+Install the application requirements using following command:
 ```
 pip install -r requirements.txt
 ```
 
-## How to use
+## Setup Instructions
 1. Install the requirements.
-2. Run the API using python
+2. Create twitter application and fill the configuration keys inside ```Config.py```.
+
+<img width="320px" src="resource/config.png" alt="[ Available Functions ]"/>
+
+3. Run the API using python.
 ```
 cd social_api
 python main.py
 ```
-3. Create twitter application and fill the inforimation inside ```Config.py```
-<img width="320px" src="resource/config.png" alt="[ Available Functions ]"/>
+
+## How to use
+### Twitter Authentication
+From your client application:
+1. Call **request_token** function with a callback URL to get outh token .
+   * Make sure the callback URL defined in the twitter application.
+2. Redirect the user to twitter authentication page with outh token parameter.
+
+https://api.twitter.com/oauth/authenticate?oauth_token=<token_code>
+
+3. Twitter will redirect the user to the callback URL with the login verifier.
+4. Use the login verifier from twitter to perform the login functionality using **access_token** function.
+   * This function will return the user identification details such as user id and screen name.
 
 
 License
